@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Welcome to node application</title>
 	<script src="/socket.io/socket.io.js"></script>
-	<script>
-		var socket = io();
-		socket.on('connect', () => {
-			console.log('connected to Server');
-		})
-		socket.on('disconnect', () => {
-			console.log('connection is disconnected');
-		})
-	</script>
+	<script src="js/index.js"></script>
 </head>
-
 <body>
 	<h1>Welcome to node / socket application</h1>
 </body>
